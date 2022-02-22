@@ -1,3 +1,7 @@
-Список проверок
-Статус проверок
-Результат проверок
+ID
+Title
+Precondition
+Module
+Steps_to_reproduce
+Expected_result
+Status
