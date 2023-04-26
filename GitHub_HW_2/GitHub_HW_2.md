@@ -31,7 +31,7 @@ Descriprion
 ```
 + `ctrl+c` - get out of editing
 4. Push the bug report structure to an external repository
-+`git add .; git commit -m "new file"; git push`
++ `git add .; git commit -m "new file"; git push`
 5. Merge branch _Bag Reports_ to _Main_
 + `git checkout main` - go to branch _main_
 + `git merge Bag_Reports` - merge a branch _Bag_Reports_ to _main_
