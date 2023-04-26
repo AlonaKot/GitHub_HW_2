@@ -290,55 +290,58 @@ XML
 + _git pull_
  
 TXT
- 1. Создать внешний репозиторий c названием TXT.
-+ Открыть https://github.com/, залогиниться 
-+ Зайти во вкладку "Repositories"
-+ Нажеть "New"
-+ Ввести название репозитория, сделать его общедоступным
-+ Нажать "create repository"
+ 1. Create an external repository with a name TXT.
++ Open https://github.com/, Login in 
++ Go to tab _"Repositories"_
++ Press _"New"_
++ Enter the name of the repository, make it public
++ Press _"create repository"_
 
- 2. Клонировать репозиторий TXT на локальный компьютер.
-+ открыть GitBash в папке, где будет храниться репозиторий
-+ в командную стороку ввести команду git clone + ссылка на репозиторий, который хотим клонировать
+ 2. Clone repository TXT to the local computer.
++ open GitBash in the folder where the repository will be stored
++ enter the command on the command line _git clone + link to the repository we want to clone_
 
- 3. Внутри локального TXT создать файл “new.txt”.
-+ cd TXT - перейти в локальный репозиторий
-+ cat > new.txt
-+ ctrl + c - выйти из редактирования
- 4. Добавить файл под гит.
-+ git add new.txt - для добавления определенного файла
-+ git add . - для добавления всех файлов
- 5. Закоммитить файл.
-+ git commit -m "new file"
- 6. Отправить файл на внешний GitHub репозиторий.
-+ git push
- 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
-+ cat > new.txt
-+ ввести текст
-
+ 3. Create file inside local TXT _new.txt_.
++ _cd TXT_ - go to local repository
++ _cat > new.txt_
++ _ctrl + c_ - get out of editing
+ 4. Add file on git.
++ _git add new.txt_ - to add a particular file
++ _git add ._ - to add all files
+ 5. Commit the file.
++ _git commit -m "new file"_
+ 6. Submit a file to an external GitHub repository.
++ _git push_
+ 7. Edit file content _new.txt_ - write information about yourself (name, age, number of pets, future desired salary). Write everything in the format TXT.
++ _cat > new.txt_
++ enter data
+```
 	Full name: Alona Kot
 	age: 25
 	Pets: 1
 	Disired Salary: 600$
- 
-+ ctrl + c - выйти из редактирования
+ ```
++ _ctrl + c_ - get out of editing
 
- 8. Отправить изменения на внешний репозиторий.
-+ git add new.txt - добавить измененный файл под гит
-+ git commit -am "edit file" - закомитить изменения
-+ git push - отправить измененный файл на внешний реозиторий 
- 9. Создать файл preferences.txt
-cat > preferences.txt
- 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
-+ввести текст
+ 8. Push changes to an external repository.
++ _git add new.txt_ - add the changed file to git
++ _git commit -am "edit file"_ - commit changes
++ _git push_ - push modified file to external repository 
+ 9. Create file _preferences.txt_
++ _cat > preferences.txt_
+ 10. To file _preferences.txt_ add information about your preferences (Favorite movie, favorite series, favorite food, favorite season, side you would like to visit) in the format TXT.
++ Enter text
+```
 	Favorite movie: "Indiana Jones"
 	Favorite serias: "Scrubs"
 	Favorite food: Burgers
 	Country you would like to visit: Switzerland
-+ ctrl + c - выйти из редактирования
- 11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
-+ cat > sklls.txt
-+ ввести текст 
+```
++ _ctrl + c_ - get out of editing
+ 11. Create file _sklls.txt_ add information about the skills that will be studied on the course in the format TXT
++ _cat > sklls.txt_
++ Enter data:
+``` 
 	* Basic theory
 	* Client-server architecture
 	* HTTP Server request methods
@@ -364,22 +367,23 @@ cat > preferences.txt
 	* JMETER
 	* Scrum Development Methodology
 	* Python. Creation of own client-server application
+``` 
++ _ctrl + c_ - get out of editing
  
-+ ctrl + c - выйти из редактирования
- 
- 12. Сделать коммит в одну строку.
-+ git commit -m "new files"
- 13. Отправить сразу 2 файла на внешний репозиторий.
-+ git add .
-+ git push
- 14. На веб интерфейсе создать файл bug_report.txt.
-+ В репозитории TXT нажать "add file"
-+ Выбрать "Create new file"
-+ Вести название файла
- 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-+ Нажать кнопку "Commit new file"
- 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
-+Открыть файл bug_report.txt Выбрать редактирование. Ввести текст
+ 12. Make a commit in one line.
++ _git commit -m "new files"_
+ 13. Upload 2 files at once to an external repository.
++ _git add ._
++ _git push_
+ 14. Create a file on the web interface _bug_report.txt_
++ In the repository TXT press _"add file"_
++ Choose _"Create new file"_
++ Enter the file name
+ 15. Do Commit changes (save) changes on the web interface.
++ Press the button _"Commit new file"_
+ 16. Modify the file on the web interface _bug_report.txt_, add a bug report in the format TXT.
++ Open file _bug_report.txt_  Select edit. Enter text
+```
 Summary: Displaying a characteristic associated with a deleted group
 Priority: Major
 Severity: Midle
@@ -405,8 +409,8 @@ Descriprion:
  Attachment: https://drive.google.com/file/d/1KAg5XKZQIQC6zYaOxrDbs2ng1LBuOxcz/view?usp=sharing
  Assignee: -
  Reporter: Alona Kot
- 
- 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-+ Нажать кнопку Commit changes.
- 18. Синхронизировать внешний и локальный репозиторий TXT
-+ git pull
+ ```
+ 17. Do Commit changes (save) changes on the web interface.
++ Press the button _Commit changes_.
+ 18. Synchronize external and local repository TXT
++ _git pull_
