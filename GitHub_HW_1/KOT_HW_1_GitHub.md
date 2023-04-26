@@ -23,7 +23,7 @@ JSON
 + _vim new.json_
 + press _"i"_
 + enter data
-`
+```
 {
 	"full_name": "Alona Kot",
 	"age": 25,
@@ -40,21 +40,21 @@ JSON
 + _cat > preferences.json_
  10. To file "preferences.json" add information about your preferences (Favorite movie, favorite series, favorite food, favorite season, side you would like to visit) in the format JSON.
 + Enter text 
- `
+ ```
 {
  "favorite_movie": "Indiana Jones",
  "favorite_serias": "Scrubs",
  "favorite_food": "Burgers",
  "country_you_would_like_to_visit": "Switzerland"
 }
-`
+```
 + _ctrl + c_ - get out of editing
  
  11. Create file _skills.json_ add information about the skills that will be studied on the course in the format JSON
  
  + _cat > skills.json_
  + Enter data:
-` 
+```
 {
 	"skills": [
 		"Basic theory",
@@ -83,7 +83,7 @@ JSON
 		"Scrum Development Methodology",
 		"Python. Creation of own client-server application." ]
 }
-`
+```
 + _ctrl + c_ - get out of editing
 
  12. Upload 2 files at once to an external repository.
@@ -98,7 +98,7 @@ JSON
  + Press the button _"Commit new file"_
  15. Modify the file on the web interface _bug_report.json_, add a bug report in the format JSON.
  +Open file _bug_report.json_ Select edit. Enter text
- `
+ ```
 {
 "Summary": "Displaying a characteristic associated with a deleted group",
 "Priority": "Major",
@@ -127,7 +127,7 @@ JSON
   "Assignee": null,
   "Reporter": "Alona Kot"
 }
-`
+```
  16. Do Commit changes (save) changes on the web interface.
 + Press the button _"Commit changes"_.
 
