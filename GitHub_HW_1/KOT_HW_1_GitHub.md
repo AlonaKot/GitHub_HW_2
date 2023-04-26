@@ -30,7 +30,7 @@ JSON
 	"Pets": 1,
 	"disired_Salary": "600$"
 }
-`
+```
 + press _"esc"_ enter _:wq_
  8. Push changes to an external repository. 
 + _git add new.json_ - add the changed file to git
